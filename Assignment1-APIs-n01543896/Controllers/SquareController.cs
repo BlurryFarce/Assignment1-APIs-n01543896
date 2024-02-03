@@ -13,7 +13,7 @@ namespace Assignment1_APIs_n01543896.Controllers
         /// Returns the square  of the input number
         /// </summary>
         /// <param name="numb">The input number</param>
-        /// <returns>The square of the integer input</returns>
+        /// <returns>int -> The square of the integer input</returns>
         /// <example>
         ///     GET /api/Square/4 -> 16
         /// </example>
@@ -22,9 +22,9 @@ namespace Assignment1_APIs_n01543896.Controllers
         /// </example>
         [Route("api/Square/{numb}")]
         public int Get(int numb) {
-            int result = numb * numb;
+            int square = numb * numb;
 
-            return result;
+            return square;
         }
     }
 }

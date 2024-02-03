@@ -13,7 +13,7 @@ namespace Assignment1_APIs_n01543896.Controllers
         /// Returns the input number plus 10
         /// </summary>
         /// <param name="numb">The input number</param>
-        /// <returns>The input with 10 added</returns>
+        /// <returns>int ->The input with 10 added</returns>
         /// <example>
         ///     GET /api/AddTen/10 -> 20
         /// </example>
